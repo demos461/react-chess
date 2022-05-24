@@ -51,3 +51,30 @@
     background-color: green;
 }
 
+.lost {
+    height: calc(50vh - 60px);
+    padding: 30px;
+    margin-left: 50px;
+    background-color: lightgrey;
+}
+
+.timer {
+    margin-right: 20px;
+}
+
+.btn {
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    color: white;
+    background-color: gray;
+}
+
+.btn:active {
+    transform: scale(1.05, 1.05);
+}
+
